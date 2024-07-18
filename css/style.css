@@ -3,3 +3,18 @@
     text-align: center;
     border-bottom: groove;
 }
+/*Nav-Sky END*/
+
+.Profile-Clouds{
+    background-image: url(../media/Rain-Rainbow.jpg);
+    position:relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Cloud-Links{
+    list-style-type: none;
+    text-align: center;
+}
+/*Profile-Clouds END*/
+
