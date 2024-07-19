@@ -5,6 +5,8 @@
 }
 /*Nav-Sky END*/
 
+/*Profile-Clouds START*/
+
 .Profile-Clouds{
     background-image: url(../media/Rain-Rainbow.jpg);
     position:relative;
@@ -21,7 +23,7 @@
     background-image: url(../media/Cloud\ Face.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    padding-bottom: 55%;
 }
 
 .Cloud-Picture img{
@@ -30,4 +32,39 @@
 }
 
 /*Profile-Clouds END*/
+
+
+/*Projects-Tree START*/
+/*
+.Projects-Tree{
+    background-image: url(../media/imma\ tree.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+*/ /*Maybe delete. Maybe not.*/
+.Bench-Title{
+    background-image: url(../media/Bench.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+.Bench-Title h1{
+    padding-top: 25%;
+}
+
+.Tree-Showcase{
+    background-image: url(../media/imma\ tree.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+
+
+
+/*Projects-Tree END*/
 
