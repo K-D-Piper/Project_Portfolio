@@ -17,6 +17,15 @@
     list-style-type: none;
 }
 
+.Cloud-Picture{
+    background-image: url(../media/Cloud\ Face.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Cloud-Picture img{
+    width:50%;
+}
 
 /*Profile-Clouds END*/
 
