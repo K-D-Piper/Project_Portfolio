@@ -21,10 +21,12 @@
     background-image: url(../media/Cloud\ Face.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 400px;
 }
 
 .Cloud-Picture img{
     width:50%;
+    padding-top: 10%;
 }
 
 /*Profile-Clouds END*/
