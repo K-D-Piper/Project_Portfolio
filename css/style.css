@@ -35,14 +35,14 @@
 
 
 /*Projects-Tree START*/
-/*
+
 .Projects-Tree{
     background-image: url(../media/imma\ tree.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+    background-size: cover;
+    padding-top:20%;
 }
-*/ /*Maybe delete. Maybe not.*/
+
 .Bench-Title{
     background-image: url(../media/Bench.jpg);
     background-size: cover;
@@ -54,15 +54,6 @@
 .Bench-Title h1{
     padding-top: 25%;
 }
-
-.Tree-Showcase{
-    background-image: url(../media/imma\ tree.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-}
-
-
 
 
 
