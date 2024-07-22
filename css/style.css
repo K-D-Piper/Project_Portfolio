@@ -18,7 +18,7 @@
 
 
 .Cloud-Picture{
-    background-image: url(../media/Cloud\ Face.jpg);
+    background-image: url(../media/Cloud\ Face.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 55%;
@@ -46,7 +46,7 @@
 }
 
 .Bench-Title{
-    background-image: url(../media/Bench.jpg);
+    background-image: url(../media/Bench.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -54,7 +54,8 @@
 }
 
 .Bench-Title h1{
-    padding-top: 25%;
+    padding-top: 30%;
+    color: white;
 }
 
 .Tree-Showcase h1{
