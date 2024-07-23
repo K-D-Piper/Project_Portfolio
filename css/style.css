@@ -99,3 +99,12 @@
 }
 
 /*Nav-Rocks END*/
+
+/*Sizing START*/
+
+@media (min-width:768px){
+    .Nav-Sky img{ 
+        align-items:initial;
+    }
+
+}
