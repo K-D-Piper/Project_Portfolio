@@ -87,6 +87,10 @@
     color: white;
 }
 
+.About-Me{
+    text-align: center;
+}
+
 .About-Links{
     list-style-type: none;
     text-align: center;
@@ -103,6 +107,7 @@
 .Nav-Rocks{
     background-color: black;
     color: lightgray;
+    text-align: center;
 }
 
 .Rock-Links{
@@ -141,7 +146,7 @@
     }
 
     .Sky-Links{
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 
     /*Nav-Sky END*/
@@ -204,5 +209,5 @@
 }
 
 @media (min-width:1200px) /*desktop sized*/ {
-
+   
 }
