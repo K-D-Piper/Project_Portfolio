@@ -3,6 +3,11 @@
     text-align: center;
     border-bottom: groove;
 }
+
+.Sky-Words{
+    display: ruby;
+}
+
 /*Nav-Sky END*/
 
 /*Profile-Clouds START*/
@@ -42,7 +47,8 @@
     background-image: url(../media/imma\ tree.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top:20%;
+    padding-top:5%;
+    padding-bottom: 10%;
 }
 
 .Bench-Title{
@@ -72,8 +78,14 @@
     color: pink;
 }
 
+.About-Roots h1{
+    text-align: center;
+    color: white;
+}
+
 .About-Links{
     list-style-type: none;
+    text-align: center;
 }
 
 .About-Links li{
@@ -102,9 +114,25 @@
 
 /*Sizing START*/
 
-@media (min-width:768px){
-    .Nav-Sky img{ 
-        align-items:initial;
+@media (min-width:576px)/*phone sized. no need*/{
+
+}
+
+@media (min-width:768px) /*Tablet sized*/ {
+    .Cloud-Words{
+        padding-top: 30%;
+    }   
+    .Cloud-Picture img{
+        width: 100%;
+        padding-top: 20%;
+        padding-left: 40%;
     }
+}
+
+@media (min-width:992px) /*Laptop Sized*/ {
+
+}
+
+@media (min-width:1200px) /*desktop sized*/ {
 
 }
