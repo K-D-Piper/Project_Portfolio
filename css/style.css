@@ -42,6 +42,15 @@
     color: white;
 }
 
+.Cloud-Links{
+    list-style-type: none;
+    text-align: center;
+}
+
+.Cloud-Links li{
+    display: inline;
+}
+
 /*Profile-Clouds END*/
 
 
@@ -59,6 +68,7 @@
     background-image: url(../media/Bench.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     padding-bottom: 30%;
 }
@@ -91,14 +101,7 @@
     text-align: center;
 }
 
-.About-Links{
-    list-style-type: none;
-    text-align: center;
-}
 
-.About-Links li{
-    display: inline;
-}
 
 /*About-Roots END*/
 
@@ -142,7 +145,7 @@
 
 @media (min-width:992px) /*Laptop Sized*/ {
     .Sky-Words h3{
-        font-size: 50px;
+        font-size: xx-large;
     }
 
     .Sky-Links{
@@ -155,56 +158,68 @@
         padding-top: 15%;
     }
     .Cloud-Words h1{
-        font-size: 65px;
+        font-size: xx-large;
     }
 
     .Cloud-Words h3{
-        font-size: 45px;
+        font-size: x-large;
     }
 
     .Cloud-Picture{
         background-size: cover;
         background-repeat: no-repeat;
-        padding-bottom: 20%;
+        padding-bottom: 25%;
     }
 
     .Cloud-Picture img{
-        width: 100%;
-        padding-top: 20%;
-        padding-left: 12%;
+        width: 58%;
+        padding-left: 6%;
+        padding-top: 11%;
+        padding-right: 7%;
     }
 
     /*Profile-Clouds END*/
 
     /*Projects-Tree START*/
+
+    .Bench-Title{
+        background-size: contain;
+        padding-bottom: 20%;
+    }
+
     .Bench-Title h1{
-        font-size: 60px;
+        font-size: xx-large;
+        padding-top: 22%;
     }
 
     .Tree-Showcase h1{
-        font-size: 60px;
+        font-size: xx-large;
     }
     
+    .Tree-Showcase{
+        padding-top: 10%;
+        display: inline-flex;
+    }
     /*Projects-Tree END*/
     .About-Roots h1{
-        font-size: 80px;
+        font-size: xxx-large;
     }
 
     .About-Roots p{
-        font-size: 50px;
+        font-size: larger;
     }
 
     .About-Roots h6{
-        font-size:60px
+        font-size:x-large;
     }
 
     .About-Roots ul li{
-        font-size:50px;
+        font-size:larger;
     }
     /*About-Roots END*/
 
     .Nav-Rocks p{
-        font-size: 60px;
+        font-size: xx-large;
     }
 }
 
