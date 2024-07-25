@@ -8,6 +8,10 @@
     display: ruby;
 }
 
+.Sky-Links button{
+    background-color: black;
+    color: pink;
+}
 /*Nav-Sky END*/
 
 /*Profile-Clouds START*/
@@ -122,6 +126,8 @@
     .Cloud-Words{
         padding-top: 30%;
     }   
+
+
     .Cloud-Picture img{
         width: 100%;
         padding-top: 20%;
@@ -130,7 +136,71 @@
 }
 
 @media (min-width:992px) /*Laptop Sized*/ {
+    .Sky-Words h3{
+        font-size: 50px;
+    }
 
+    .Sky-Links{
+        font-size: xxx-large;
+    }
+
+    /*Nav-Sky END*/
+
+    .Cloud-Words{ 
+        padding-top: 15%;
+    }
+    .Cloud-Words h1{
+        font-size: 65px;
+    }
+
+    .Cloud-Words h3{
+        font-size: 45px;
+    }
+
+    .Cloud-Picture{
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 20%;
+    }
+
+    .Cloud-Picture img{
+        width: 100%;
+        padding-top: 20%;
+        padding-left: 12%;
+    }
+
+    /*Profile-Clouds END*/
+
+    /*Projects-Tree START*/
+    .Bench-Title h1{
+        font-size: 60px;
+    }
+
+    .Tree-Showcase h1{
+        font-size: 60px;
+    }
+    
+    /*Projects-Tree END*/
+    .About-Roots h1{
+        font-size: 80px;
+    }
+
+    .About-Roots p{
+        font-size: 50px;
+    }
+
+    .About-Roots h6{
+        font-size:60px
+    }
+
+    .About-Roots ul li{
+        font-size:50px;
+    }
+    /*About-Roots END*/
+
+    .Nav-Rocks p{
+        font-size: 60px;
+    }
 }
 
 @media (min-width:1200px) /*desktop sized*/ {
